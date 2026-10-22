@@ -9,12 +9,12 @@ pub use app::App;
 pub use iso7816;
 
 pub mod command {
-    pub const SIZE: usize = 7609;
+    pub const SIZE: usize = 10240;
     pub type Data = iso7816::Data<SIZE>;
 }
 
 pub mod response {
-    pub const SIZE: usize = 7609;
+    pub const SIZE: usize = 10240;
     pub type Data = iso7816::Data<SIZE>;
 }
 
